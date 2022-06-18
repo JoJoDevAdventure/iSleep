@@ -10,13 +10,24 @@
 		A306CE8D28529E25005F3BA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A306CE8C28529E25005F3BA8 /* AppDelegate.swift */; };
 		A306CE8F28529E25005F3BA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A306CE8E28529E25005F3BA8 /* SceneDelegate.swift */; };
 		A306CE9128529E25005F3BA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A306CE9028529E25005F3BA8 /* ViewController.swift */; };
-		A306CE9428529E25005F3BA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A306CE9228529E25005F3BA8 /* Main.storyboard */; };
 		A306CE9728529E25005F3BA8 /* iSleep.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A306CE9528529E25005F3BA8 /* iSleep.xcdatamodeld */; };
 		A306CE9928529E27005F3BA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A306CE9828529E27005F3BA8 /* Assets.xcassets */; };
 		A306CE9C28529E27005F3BA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A306CE9A28529E27005F3BA8 /* LaunchScreen.storyboard */; };
 		A306CEA728529E27005F3BA8 /* iSleepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A306CEA628529E27005F3BA8 /* iSleepTests.swift */; };
 		A306CEB128529E27005F3BA8 /* iSleepUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A306CEB028529E27005F3BA8 /* iSleepUITests.swift */; };
 		A306CEB328529E27005F3BA8 /* iSleepUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A306CEB228529E27005F3BA8 /* iSleepUITestsLaunchTests.swift */; };
+		A37063C4285E4D61002EE60B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A37063C2285E4D61002EE60B /* Interface.storyboard */; };
+		A37063C6285E4D63002EE60B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A37063C5285E4D63002EE60B /* Assets.xcassets */; };
+		A37063CC285E4D63002EE60B /* iSleep Watch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A37063CB285E4D63002EE60B /* iSleep Watch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A37063D1285E4D63002EE60B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37063D0285E4D63002EE60B /* InterfaceController.swift */; };
+		A37063D3285E4D63002EE60B /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37063D2285E4D63002EE60B /* ExtensionDelegate.swift */; };
+		A37063D5285E4D63002EE60B /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37063D4285E4D63002EE60B /* NotificationController.swift */; };
+		A37063D7285E4D63002EE60B /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37063D6285E4D63002EE60B /* ComplicationController.swift */; };
+		A37063D9285E4D63002EE60B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A37063D8285E4D63002EE60B /* Assets.xcassets */; };
+		A37063E5285E4D64002EE60B /* iSleep_WatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37063E4285E4D64002EE60B /* iSleep_WatchTests.swift */; };
+		A37063EF285E4D64002EE60B /* iSleep_WatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37063EE285E4D64002EE60B /* iSleep_WatchUITests.swift */; };
+		A37063F1285E4D64002EE60B /* iSleep_WatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37063F0285E4D64002EE60B /* iSleep_WatchUITestsLaunchTests.swift */; };
+		A37063F4285E4D64002EE60B /* iSleep Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A37063C0285E4D61002EE60B /* iSleep Watch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +45,66 @@
 			remoteGlobalIDString = A306CE8828529E25005F3BA8;
 			remoteInfo = iSleep;
 		};
+		A37063CD285E4D63002EE60B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A306CE8128529E25005F3BA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A37063CA285E4D63002EE60B;
+			remoteInfo = "iSleep Watch WatchKit Extension";
+		};
+		A37063E1285E4D64002EE60B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A306CE8128529E25005F3BA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A37063CA285E4D63002EE60B;
+			remoteInfo = "iSleep Watch WatchKit Extension";
+		};
+		A37063EB285E4D64002EE60B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A306CE8128529E25005F3BA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A37063BF285E4D61002EE60B;
+			remoteInfo = "iSleep Watch";
+		};
+		A37063F2285E4D64002EE60B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A306CE8128529E25005F3BA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A37063BF285E4D61002EE60B;
+			remoteInfo = "iSleep Watch";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A37063F5285E4D64002EE60B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A37063F4285E4D64002EE60B /* iSleep Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37063F8285E4D64002EE60B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A37063CC285E4D63002EE60B /* iSleep Watch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A306CE8928529E25005F3BA8 /* iSleep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSleep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A306CE8C28529E25005F3BA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A306CE8E28529E25005F3BA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A306CE9028529E25005F3BA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A306CE9328529E25005F3BA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A306CE9628529E25005F3BA8 /* iSleep.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iSleep.xcdatamodel; sourceTree = "<group>"; };
 		A306CE9828529E27005F3BA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A306CE9B28529E27005F3BA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +114,22 @@
 		A306CEAC28529E27005F3BA8 /* iSleepUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSleepUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A306CEB028529E27005F3BA8 /* iSleepUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSleepUITests.swift; sourceTree = "<group>"; };
 		A306CEB228529E27005F3BA8 /* iSleepUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSleepUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A37063C0285E4D61002EE60B /* iSleep Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iSleep Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A37063C3285E4D61002EE60B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A37063C5285E4D63002EE60B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A37063CB285E4D63002EE60B /* iSleep Watch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "iSleep Watch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A37063D0285E4D63002EE60B /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A37063D2285E4D63002EE60B /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		A37063D4285E4D63002EE60B /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A37063D6285E4D63002EE60B /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		A37063D8285E4D63002EE60B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A37063DA285E4D63002EE60B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A37063DB285E4D63002EE60B /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		A37063E0285E4D64002EE60B /* iSleep WatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iSleep WatchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A37063E4285E4D64002EE60B /* iSleep_WatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSleep_WatchTests.swift; sourceTree = "<group>"; };
+		A37063EA285E4D64002EE60B /* iSleep WatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iSleep WatchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A37063EE285E4D64002EE60B /* iSleep_WatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSleep_WatchUITests.swift; sourceTree = "<group>"; };
+		A37063F0285E4D64002EE60B /* iSleep_WatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSleep_WatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +154,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A37063C8285E4D63002EE60B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37063DD285E4D64002EE60B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37063E7285E4D64002EE60B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,6 +184,10 @@
 				A306CE8B28529E25005F3BA8 /* iSleep */,
 				A306CEA528529E27005F3BA8 /* iSleepTests */,
 				A306CEAF28529E27005F3BA8 /* iSleepUITests */,
+				A37063C1285E4D61002EE60B /* iSleep Watch */,
+				A37063CF285E4D63002EE60B /* iSleep Watch WatchKit Extension */,
+				A37063E3285E4D64002EE60B /* iSleep WatchTests */,
+				A37063ED285E4D64002EE60B /* iSleep WatchUITests */,
 				A306CE8A28529E25005F3BA8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +198,10 @@
 				A306CE8928529E25005F3BA8 /* iSleep.app */,
 				A306CEA228529E27005F3BA8 /* iSleepTests.xctest */,
 				A306CEAC28529E27005F3BA8 /* iSleepUITests.xctest */,
+				A37063C0285E4D61002EE60B /* iSleep Watch.app */,
+				A37063CB285E4D63002EE60B /* iSleep Watch WatchKit Extension.appex */,
+				A37063E0285E4D64002EE60B /* iSleep WatchTests.xctest */,
+				A37063EA285E4D64002EE60B /* iSleep WatchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,7 +212,6 @@
 				A306CE8C28529E25005F3BA8 /* AppDelegate.swift */,
 				A306CE8E28529E25005F3BA8 /* SceneDelegate.swift */,
 				A306CE9028529E25005F3BA8 /* ViewController.swift */,
-				A306CE9228529E25005F3BA8 /* Main.storyboard */,
 				A306CE9828529E27005F3BA8 /* Assets.xcassets */,
 				A306CE9A28529E27005F3BA8 /* LaunchScreen.storyboard */,
 				A306CE9D28529E27005F3BA8 /* Info.plist */,
@@ -130,6 +237,46 @@
 			path = iSleepUITests;
 			sourceTree = "<group>";
 		};
+		A37063C1285E4D61002EE60B /* iSleep Watch */ = {
+			isa = PBXGroup;
+			children = (
+				A37063C2285E4D61002EE60B /* Interface.storyboard */,
+				A37063C5285E4D63002EE60B /* Assets.xcassets */,
+			);
+			path = "iSleep Watch";
+			sourceTree = "<group>";
+		};
+		A37063CF285E4D63002EE60B /* iSleep Watch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A37063D0285E4D63002EE60B /* InterfaceController.swift */,
+				A37063D2285E4D63002EE60B /* ExtensionDelegate.swift */,
+				A37063D4285E4D63002EE60B /* NotificationController.swift */,
+				A37063D6285E4D63002EE60B /* ComplicationController.swift */,
+				A37063D8285E4D63002EE60B /* Assets.xcassets */,
+				A37063DA285E4D63002EE60B /* Info.plist */,
+				A37063DB285E4D63002EE60B /* PushNotificationPayload.apns */,
+			);
+			path = "iSleep Watch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A37063E3285E4D64002EE60B /* iSleep WatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				A37063E4285E4D64002EE60B /* iSleep_WatchTests.swift */,
+			);
+			path = "iSleep WatchTests";
+			sourceTree = "<group>";
+		};
+		A37063ED285E4D64002EE60B /* iSleep WatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A37063EE285E4D64002EE60B /* iSleep_WatchUITests.swift */,
+				A37063F0285E4D64002EE60B /* iSleep_WatchUITestsLaunchTests.swift */,
+			);
+			path = "iSleep WatchUITests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,10 +287,12 @@
 				A306CE8528529E25005F3BA8 /* Sources */,
 				A306CE8628529E25005F3BA8 /* Frameworks */,
 				A306CE8728529E25005F3BA8 /* Resources */,
+				A37063F5285E4D64002EE60B /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A37063F3285E4D64002EE60B /* PBXTargetDependency */,
 			);
 			name = iSleep;
 			productName = iSleep;
@@ -186,6 +335,76 @@
 			productReference = A306CEAC28529E27005F3BA8 /* iSleepUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		A37063BF285E4D61002EE60B /* iSleep Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3706400285E4D64002EE60B /* Build configuration list for PBXNativeTarget "iSleep Watch" */;
+			buildPhases = (
+				A37063BE285E4D61002EE60B /* Resources */,
+				A37063F8285E4D64002EE60B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A37063CE285E4D63002EE60B /* PBXTargetDependency */,
+			);
+			name = "iSleep Watch";
+			productName = "iSleep Watch";
+			productReference = A37063C0285E4D61002EE60B /* iSleep Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A37063CA285E4D63002EE60B /* iSleep Watch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A37063FF285E4D64002EE60B /* Build configuration list for PBXNativeTarget "iSleep Watch WatchKit Extension" */;
+			buildPhases = (
+				A37063C7285E4D63002EE60B /* Sources */,
+				A37063C8285E4D63002EE60B /* Frameworks */,
+				A37063C9285E4D63002EE60B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iSleep Watch WatchKit Extension";
+			productName = "iSleep Watch WatchKit Extension";
+			productReference = A37063CB285E4D63002EE60B /* iSleep Watch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		A37063DF285E4D64002EE60B /* iSleep WatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3706401285E4D64002EE60B /* Build configuration list for PBXNativeTarget "iSleep WatchTests" */;
+			buildPhases = (
+				A37063DC285E4D64002EE60B /* Sources */,
+				A37063DD285E4D64002EE60B /* Frameworks */,
+				A37063DE285E4D64002EE60B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A37063E2285E4D64002EE60B /* PBXTargetDependency */,
+			);
+			name = "iSleep WatchTests";
+			productName = "iSleep WatchTests";
+			productReference = A37063E0285E4D64002EE60B /* iSleep WatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A37063E9285E4D64002EE60B /* iSleep WatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3706402285E4D64002EE60B /* Build configuration list for PBXNativeTarget "iSleep WatchUITests" */;
+			buildPhases = (
+				A37063E6285E4D64002EE60B /* Sources */,
+				A37063E7285E4D64002EE60B /* Frameworks */,
+				A37063E8285E4D64002EE60B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A37063EC285E4D64002EE60B /* PBXTargetDependency */,
+			);
+			name = "iSleep WatchUITests";
+			productName = "iSleep WatchUITests";
+			productReference = A37063EA285E4D64002EE60B /* iSleep WatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,6 +426,20 @@
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = A306CE8828529E25005F3BA8;
 					};
+					A37063BF285E4D61002EE60B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					A37063CA285E4D63002EE60B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					A37063DF285E4D64002EE60B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = A37063CA285E4D63002EE60B;
+					};
+					A37063E9285E4D64002EE60B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = A37063BF285E4D61002EE60B;
+					};
 				};
 			};
 			buildConfigurationList = A306CE8428529E25005F3BA8 /* Build configuration list for PBXProject "iSleep" */;
@@ -225,6 +458,10 @@
 				A306CE8828529E25005F3BA8 /* iSleep */,
 				A306CEA128529E27005F3BA8 /* iSleepTests */,
 				A306CEAB28529E27005F3BA8 /* iSleepUITests */,
+				A37063BF285E4D61002EE60B /* iSleep Watch */,
+				A37063CA285E4D63002EE60B /* iSleep Watch WatchKit Extension */,
+				A37063DF285E4D64002EE60B /* iSleep WatchTests */,
+				A37063E9285E4D64002EE60B /* iSleep WatchUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,7 +473,6 @@
 			files = (
 				A306CE9C28529E27005F3BA8 /* LaunchScreen.storyboard in Resources */,
 				A306CE9928529E27005F3BA8 /* Assets.xcassets in Resources */,
-				A306CE9428529E25005F3BA8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +484,37 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A306CEAA28529E27005F3BA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37063BE285E4D61002EE60B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37063C6285E4D63002EE60B /* Assets.xcassets in Resources */,
+				A37063C4285E4D61002EE60B /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37063C9285E4D63002EE60B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37063D9285E4D63002EE60B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37063DE285E4D64002EE60B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37063E8285E4D64002EE60B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -285,6 +552,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A37063C7285E4D63002EE60B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37063D5285E4D63002EE60B /* NotificationController.swift in Sources */,
+				A37063D7285E4D63002EE60B /* ComplicationController.swift in Sources */,
+				A37063D3285E4D63002EE60B /* ExtensionDelegate.swift in Sources */,
+				A37063D1285E4D63002EE60B /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37063DC285E4D64002EE60B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37063E5285E4D64002EE60B /* iSleep_WatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37063E6285E4D64002EE60B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37063F1285E4D64002EE60B /* iSleep_WatchUITestsLaunchTests.swift in Sources */,
+				A37063EF285E4D64002EE60B /* iSleep_WatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -298,23 +593,43 @@
 			target = A306CE8828529E25005F3BA8 /* iSleep */;
 			targetProxy = A306CEAD28529E27005F3BA8 /* PBXContainerItemProxy */;
 		};
+		A37063CE285E4D63002EE60B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A37063CA285E4D63002EE60B /* iSleep Watch WatchKit Extension */;
+			targetProxy = A37063CD285E4D63002EE60B /* PBXContainerItemProxy */;
+		};
+		A37063E2285E4D64002EE60B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A37063CA285E4D63002EE60B /* iSleep Watch WatchKit Extension */;
+			targetProxy = A37063E1285E4D64002EE60B /* PBXContainerItemProxy */;
+		};
+		A37063EC285E4D64002EE60B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A37063BF285E4D61002EE60B /* iSleep Watch */;
+			targetProxy = A37063EB285E4D64002EE60B /* PBXContainerItemProxy */;
+		};
+		A37063F3285E4D64002EE60B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A37063BF285E4D61002EE60B /* iSleep Watch */;
+			targetProxy = A37063F2285E4D64002EE60B /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A306CE9228529E25005F3BA8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A306CE9328529E25005F3BA8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A306CE9A28529E27005F3BA8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A306CE9B28529E27005F3BA8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A37063C2285E4D61002EE60B /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A37063C3285E4D61002EE60B /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -448,7 +763,6 @@
 				INFOPLIST_FILE = iSleep/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -476,7 +790,6 @@
 				INFOPLIST_FILE = iSleep/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -568,6 +881,198 @@
 			};
 			name = Release;
 		};
+		A37063F6285E4D64002EE60B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X7FBND7W68;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = iSleep_Watch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "iSleep Watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.Joseph.iSleep;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Joseph.iSleep.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		A37063F7285E4D64002EE60B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X7FBND7W68;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = iSleep_Watch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "iSleep Watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.Joseph.iSleep;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Joseph.iSleep.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		A37063F9285E4D64002EE60B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X7FBND7W68;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iSleep Watch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "iSleep Watch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Joseph.iSleep.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		A37063FA285E4D64002EE60B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X7FBND7W68;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iSleep Watch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "iSleep Watch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Joseph.iSleep.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		A37063FB285E4D64002EE60B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X7FBND7W68;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Joseph.iSleep.iSleep-WatchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSleep Watch WatchKit Extension.appex/iSleep Watch WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		A37063FC285E4D64002EE60B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X7FBND7W68;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Joseph.iSleep.iSleep-WatchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSleep Watch WatchKit Extension.appex/iSleep Watch WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		A37063FD285E4D64002EE60B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X7FBND7W68;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Joseph.iSleep.iSleep-WatchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "iSleep Watch";
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		A37063FE285E4D64002EE60B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X7FBND7W68;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Joseph.iSleep.iSleep-WatchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "iSleep Watch";
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -603,6 +1108,42 @@
 			buildConfigurations = (
 				A306CEBD28529E27005F3BA8 /* Debug */,
 				A306CEBE28529E27005F3BA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A37063FF285E4D64002EE60B /* Build configuration list for PBXNativeTarget "iSleep Watch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37063F9285E4D64002EE60B /* Debug */,
+				A37063FA285E4D64002EE60B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3706400285E4D64002EE60B /* Build configuration list for PBXNativeTarget "iSleep Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37063F6285E4D64002EE60B /* Debug */,
+				A37063F7285E4D64002EE60B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3706401285E4D64002EE60B /* Build configuration list for PBXNativeTarget "iSleep WatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37063FB285E4D64002EE60B /* Debug */,
+				A37063FC285E4D64002EE60B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3706402285E4D64002EE60B /* Build configuration list for PBXNativeTarget "iSleep WatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37063FD285E4D64002EE60B /* Debug */,
+				A37063FE285E4D64002EE60B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

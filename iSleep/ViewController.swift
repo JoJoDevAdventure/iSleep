@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import WatchConnectivity
 
 class ViewController: UIViewController {
 
